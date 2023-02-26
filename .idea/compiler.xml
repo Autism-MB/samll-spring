@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="small-spring-step-02" />
         <module name="small-spring-step-01" />
+        <module name="small-spring-step-03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="samll-spring" target="1.8" />
+      <module name="samll-spring-03" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
