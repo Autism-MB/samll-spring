@@ -1,13 +1,12 @@
 package cn.bugstack.springframework.beans.factory.support;
 
-import cn.bugstack.springframework.beans.BeansException;
 import cn.bugstack.springframework.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @SuppressWarnings("all")
-public abstract class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
+public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 
     private Map<String, Object> singletonObjects = new HashMap<>();
 
@@ -22,5 +21,4 @@ public abstract class DefaultSingletonBeanRegistry implements SingletonBeanRegis
     }
 
 
-    public abstract Object getBean(String name, Object... args) throws BeansException;
 }
