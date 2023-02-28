@@ -6,7 +6,8 @@ import cn.bugstack.springframework.beans.factory.config.BeanDefinition;
 
 
 /**
- * @author Bing
+ * @author:小肖coding
+ * @description:
  */
 @SuppressWarnings("all")
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {

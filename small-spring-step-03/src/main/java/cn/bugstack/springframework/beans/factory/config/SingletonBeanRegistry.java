@@ -1,5 +1,8 @@
 package cn.bugstack.springframework.beans.factory.config;
 
+/**
+ * @description:定义一个注册和获取单例对象的接口
+ */
 @SuppressWarnings("all")
 public interface SingletonBeanRegistry {
 

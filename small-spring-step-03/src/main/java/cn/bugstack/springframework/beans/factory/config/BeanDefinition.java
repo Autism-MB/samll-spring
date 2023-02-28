@@ -1,5 +1,9 @@
 package cn.bugstack.springframework.beans.factory.config;
 
+/**
+ * @author：小肖coding
+ * @descriped：Bean对象的实例化交给容器处理
+ */
 @SuppressWarnings("all")
 public class BeanDefinition {
 

@@ -20,4 +20,10 @@ public class ApiTest {
         UserService userService_singleton = (UserService) beanFactory.getBean("userService", "肖先生");
         userService_singleton.queryUserInfo();
     }
+
+    @Test
+    public void test_newInstance() throws IllegalAccessException, InstantiationException {
+        UserService userService = UserService.class.newInstance();
+        System.out.println(userService);
+    }
 }
